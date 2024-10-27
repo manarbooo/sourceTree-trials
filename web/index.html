@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dessert Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Dessert Delight</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="cart-icon">
+      <img src="cart-icon.png" alt="Cart Icon">
+      <span class="cart-count">3</span>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section id="intro" class="intro">
+      <h1>Welcome to Dessert Delight</h1>
+      <p>Indulge in our wide variety of delicious desserts!</p>
+    </section>
+
+    <section id="menu" class="menu">
+      <h2>Our Menu</h2>
+      <div class="dessert-cards">
+        <!-- Dessert Card 1 -->
+        <div class="dessert-card">
+          <div class="img-container">
+            <img src="waffle.jpg" alt="Waffle with Berries" class="dessert-img">
+            <button class="add-to-cart-btn" data-dessert="Waffle">Add to Cart</button>
+          </div>
+          <div class="dessert-details">
+            <h3>Waffle</h3>
+            <p>Waffle with Berries</p>
+            <span class="price">$6.50</span>
+          </div>
+        </div>
+        
+        <!-- Dessert Card 2 -->
+        <div class="dessert-card">
+          <div class="img-container">
+            <img src="creme-brulee.jpg" alt="Vanilla Bean Crème Brûlée" class="dessert-img">
+            <button class="add-to-cart-btn" data-dessert="Creme Brulee">Add to Cart</button>
+          </div>
+          <div class="dessert-details">
+            <h3>Crème Brûlée</h3>
+            <p>Vanilla Bean Crème Brûlée</p>
+            <span class="price">$7.00</span>
+          </div>
+        </div>
+        
+        <!-- Additional Dessert Cards -->
+        <!-- Repeat structure for more desserts -->
+      </div>
+    </section>
+
+    <section id="cart" class="cart">
+      <h2>Your Cart</h2>
+      <div class="cart-items">
+        <!-- Cart Item 1 -->
+        <div class="cart-item">
+          <img src="waffle.jpg" alt="Waffle Thumbnail" class="cart-thumbnail">
+          <div class="cart-details">
+            <span class="cart-item-name">Waffle</span>
+            <span class="cart-item-quantity">Quantity: 2</span>
+            <span class="cart-item-price">$13.00</span>
+          </div>
+          <button class="remove-item-btn">Remove</button>
+        </div>
+        <!-- Additional Cart Items -->
+      </div>
+      <div class="cart-total">
+        <span>Total:</span>
+        <span class="total-price">$20.50</span>
+      </div>
+      <button class="checkout-btn">Checkout</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Dessert Delight. All rights reserved.</p>
+  </footer>
+</body>
+</html>

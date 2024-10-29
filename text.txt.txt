@@ -1,3 +1,0 @@
-f you use another email client (Thunderbird, Yahoo Mail, etc.), notifications can typically be activated via the client’s settings menu. You can also control notification settings through your system's notification settings as described above for both Windows and macOS.
-
-Let me know which specific platform or email service you're using if you need more detailed steps!
